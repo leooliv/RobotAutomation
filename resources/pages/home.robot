@@ -3,9 +3,9 @@ Resource  ../main.robot
 
 *** Variables ***
 ${TUTORIALS_DROPDOWN}    //a[@id='navbtn_tutorials']
-${LEARN_HOW_TO_LINK}     //a[contains(@class, 'w3-bar-item') and contains(@title, 'How To - Code Snippets')]
-${LEARN_COLORS_LINK}     //a[@href="/colors/default.asp"]
-${LEARN_HTML_LINK}       //a[@href='/html/default.asp']
+${LEARN_HOW_TO_LINK}     //a[contains (@data-name, 'howto')]
+${LEARN_COLORS_LINK}     //a[contains (@data-name, 'colors')]
+${LEARN_HTML_LINK}       //a[contains (@data-name, 'html')]
 
 
 *** Keywords ***

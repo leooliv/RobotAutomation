@@ -4,7 +4,7 @@ Resource  ../main.robot
 *** Variables ***
 ${SEARCH_FIELD}          //input[@class='searchinput']
 ${MODAL_BOX_LINK}        //a[text()='Modal Boxes']
-${OPEN_MODAL_BUTTON}     //button[contains(text(), 'Open Modal')]
+${OPEN_MODAL_BUTTON}     css:button[onclick*="id01"][onclick*="block"]
 ${MODAL_BOX}             //p[contains(text(), 'Modals are awesome!')]
 ${CLOSE_MODAL_BUTTON}    //span[contains(@class, 'w3-button') and contains(@class, 'w3-display-topright')]
 

@@ -19,7 +19,6 @@ E acesse o exercício "Try it yourself" do primeiro exemplo
     Wait Until Element Is Visible    ${TRY_YOURSELF_SUBMIT}
     Click Element                    ${TRY_YOURSELF_SUBMIT}
     @{window_handles}                Get Window Handles
-    Sleep    4
     Switch Window                    ${window_handles}[1]
     Log                              ${window_handles}[1]
 Quando preencher o formulário com um nome e sobrenome
