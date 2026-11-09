@@ -1,0 +1,31 @@
+# Robot Framework - resultados gerados a cada execução
+output.xml
+log.html
+report.html
+selenium-screenshot-*.png
+geckodriver-*.log
+*.debug
+ 
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+ 
+# Ambiente virtual
+venv/
+.venv/
+env/
+ 
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+ 
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# Variáveis locais e segredos
+.env
+ 
